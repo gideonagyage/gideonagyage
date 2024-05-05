@@ -22,9 +22,8 @@ I enjoy designing logos, birthday flyers, writing python codes, and designing we
 You can refer to me as He or Him.
 
 ## ⚡ Fun facts
-- Understanding the principles of design is crucial, as it helps in creating a design that’s both calculated and unique.
+- Did you know? The first ever website was published on August 6, 1991 by British physicist Tim Berners-Lee while at CERN, in Switzerland. That website is still live, and you can visit it today! It's a fitting start to your journey in web development.
 - The use of color can increase brand recognition by up to 80%.
-- Color theory is an integral part of graphic design, impacting emotions, perceptions, and branding.
 
 ## 💞️ I’m looking to collaborate on Web applications.
 
