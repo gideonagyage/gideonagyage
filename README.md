@@ -5,7 +5,7 @@
 ✨ I'm a **Visual Storyteller** and an aspiring **Web Development** Virtuoso. As a seasoned **Graphic Designer** and an emerging **Web Developer**, I thrive on breathing life into design concepts and weaving the web of the future. My craft is my passion, and client delight is my art's true reward. Join me on this journey of creative exploration and let's shape the digital realm together! 🎨
 
 ## 🛠 Skills and Expertise
--Python -Web Development -Logo Design -Graphic Design
+-Python -Web Development -Logo Design -Graphic Design -Java (Android) -XML (Android)
 
 ## 🎈 Interests
 I enjoy designing logos, birthday flyers, writing python codes, and designing website landing pages. In my free time, you can find me watching MCU & DCU animations. 🎥
