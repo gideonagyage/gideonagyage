@@ -13,6 +13,6 @@ I enjoy designing logos, birthday flyers, writing python codes, and designing we
 - The use of color can increase brand recognition by up to 80%.
 
 ## 📫 How to reach me
-Feel free to reach out to me via email at gideonagyage@gmail.com.
+Feel free to reach out to me on [Linktree](https://linktr.ee/gideonagyage).
 
 Thanks for stopping by! 😊
