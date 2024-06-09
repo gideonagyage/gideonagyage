@@ -6,7 +6,8 @@
 -Python -Web Development -Logo Design -Graphic Design -Java (Android) -XML (Android)
 
 ## 🎈 Interests
-I enjoy designing logos, birthday flyers, writing python codes, and designing website landing pages. In my free time, you can find me watching MCU & DCU animations. 🎥
+I enjoy designing logos, flyers, and designing front-end webpages.
+In my free time, you can find me watching MCU & DCU animations. 🎥
 
 ## ⚡ Fun facts
 - Did you know? The first ever website was published on August 6, 1991 by British physicist Tim Berners-Lee while at CERN, in Switzerland. That website is still live, and you can visit it today! It's a fitting start to your journey in web development.
