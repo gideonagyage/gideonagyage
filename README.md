@@ -1,12 +1,12 @@
 # 👋 Hello, I'm Gideon Agyage!
 
-✨ I'm a **Visual Storyteller** and a **Junior Web Development** virtuoso. As a seasoned **Graphic Designer** and an emerging **Web Developer**, I thrive on breathing life into design concepts and weaving the web of the future. My craft is my passion, and client delight is my art's true reward. Join me on this journey of creative exploration and let's shape the digital realm together! 🎨
+✨ I'm a **Visual Storyteller** and a **Web Development** virtuoso. As a seasoned **Graphic Designer** and a **Web Developer**, I thrive on breathing life into design concepts and weaving the web of the future. My craft is my passion, and client delight is my art's true reward. Join me on this journey of creative exploration and let's shape the digital realm together! 🎨
 
 ## 🛠 Skills and Expertise
--Python -Web Development -Logo Design -Graphic Design -Java (Android) -XML (Android)
+-Python -HTML -CSS -JavaScript (ReactJS) -CSS (Bootstrap) -Logo Design -Graphic Design -Java (Android) -XML (Android)
 
 ## 🎈 Interests
-I enjoy designing logos, flyers, and designing front-end webpages.
+I enjoy drawing, designing logos, flyers, and designing front-end webpages.
 In my free time, you can find me watching MCU & DCU animations. 🎥
 
 ## ⚡ Fun facts
