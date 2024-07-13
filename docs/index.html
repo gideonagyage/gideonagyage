@@ -3,87 +3,102 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gideon Agyage - Portfolio</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description"
+      content="Gideon Agyage is a passionate Web Developer and Graphic Designer based in Accra, Ghana. He specializes in creating beautiful and functional websites using HTML, CSS, and JavaScript. Explore his portfolio and connect with him on LinkedIn.">
+    <meta name="keywords"
+      content="Gideon Agyage, Web Developer, Graphic Designer, Accra, Ghana, HTML, CSS, JavaScript, Python, Portfolio, LinkedIn, web design, ReactJS, Bootstrap, Photoshop, Illustrator, branding, behance, CorelDRAW, responsive design, freelance">
+    <meta name="author" content="Gideon Agyage">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <!-- End of Meta Tags for SEO -->
+
+    <title>Gideon Agyage | Web Developer & Graphic Designer | Accra,
+      Ghana</title>
+
+    <!-- Bootstrap Link -->
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-      <link rel="shortcut icon" href="./img/my_logo_black.svg" type="image/svg+xml">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/my_logo_black.svg"
+      type="image/svg+xml">
+
   </head>
+
   <body>
-    <!-- Header Section -->
-    <header class="bg-gray-100 bg-white dark:bg-gray-800 py-4 shadow-md">
-      <div
-        class="container mx-auto flex justify-between items-center  text-white">
-        <!-- Logo and Name -->
-        <div class="flex items-center">
-          <img src="./img/my_logo_black.svg" alt="Gideon Agyage Logo"
-            class="w-10 h-10 mr-5 md:w-12 md:h-12">
-          <h1 class="text-2xl font-bold text-white md:text-3xl">Gideon
-            Agyage</h1>
-        </div>
 
-        <!-- Responsive Navigation Bar -->
-        <nav class="md:flex md:items-center md:space-x-6">
-          <button title="hamburger" type="button" class="block md:hidden"
-            id="mobile-menu-button">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid navbar-brand text-white">
+        <img src="./img/my_logo_black.svg" alt="Gideon Agyage Logo" width="40"
+          height="auto" class="mx-2 d-inline-block align-text-top">
 
-          <ul
-            class="md:flex md:items-center md:space-x-6 flex-col md:flex-row md:justify-end"
-            id="mobile-menu text-white">
-            <li><a href="#about"
-                class="hover:text-blue-500 to-section">About</a></li>
-            <li><a href="#projects"
-                class="hover:text-blue-500 to-section">Projects</a></li>
-            <li><a href="#skills"
-                class="hover:text-blue-500 to-section">Skills</a></li>
-            <li><a href="#contact"
-                class="hover:text-blue-500 to-section">Contact</a></li> <br />
-            <li><a
+        <!-- Navbar Title -->
+        <h2 class="p-2 text-white">Gideon Agyage</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#about"
+                class="nav-link to-section">About</a></li>
+            <li class="nav-item"><a href="#projects"
+                class="nav-link to-section">Projects</a></li>
+            <li class="nav-item"><a href="#skills"
+                class="nav-link to-section">Skills</a></li>
+            <li class="nav-item"><a href="#contact"
+                class="nav-link to-section">Contact</a></li>
+            <li class="nav-item"><a
                 href="https://drive.usercontent.google.com/u/0/uc?id=1xA7-1H65ONvWM2TEm7bkG1JbOPrnSkzf&export=download"
                 rel="noopener noreferrer" target="_blank"
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Download
+                class="btn border-3 btn-dark rounded-5 py-2 px-4">Download
                 CV</a></li>
           </ul>
-
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
+
+    <br> <br> <br> <br>
 
     <!-- Hero Section -->
-    <section id="hero" class="bg-white py-20">
-      <div class="container mx-auto text-center p-8">
-        <h2 class="text-4xl font-bold mb-4">Hi, I'm Gideon Agyage</h2>
-        <p class="text-lg text-gray-600 mb-8">
-          A passionate Web Developer with a knack for creating beautiful and
-          functional websites.
-        </p>
+    <section id="hero"
+      class="bg-white py-5 mt-5 vh-100 justify-content-center align-items-center">
+      <br> <br>
+      <div class="container text-center p-4">
+        <h2 class="display-3 fw-bold mb-4">Hi, I'm Gideon Agyage</h2>
+        <p class="lead mb-4">A passionate Web Developer and Graphic Designer
+          with a knack for creating beautiful and functional websites.</p>
         <a href="#projects"
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full to-section">View
-          My Projects</a>
+          class="btn btn-dark to-section rounded-5 px-4 py-2"><h5>My
+            Projects</h5></a>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="bg-gray-100 py-20">
-      <div class="container mx-auto">
-        <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
-        <div class="grid">
-          <div class="text-center">
+    <!-- About Me Section -->
+    <section id="about" class="bg-dark py-5">
+      <br>
+      <div class="container">
+        <h2 class="h2 fw-bold mb-5 text-white text-center">About Me</h2>
+        <div class="row">
+          <div class="col-12 text-center">
             <img src="./img/profile_pic.jpg" alt="Gideon Agyage"
-              class="rounded-full mx-auto w-48 h-48">
-            <p class="text-lg text-gray-600 mt-4  mx-20">
+              class="rounded-circle object-cover mx-auto" width="250"
+              height="auto">
+            <p class="lead text-white mt-4 mx-5">
               I'm a dedicated Web Developer & Graphic Designer based in <span
-                class="text-blue-900 font-bold">Accra, Ghana</span>. With
+                class="fw-bold text-primary">Accra, Ghana</span>. With
               experience in HTML, CSS, JavaScript, and Python, I love creating
               clean, user-friendly websites that make an impact. When I’m not
               coding, you’ll find me tinkering with graphic design or exploring
@@ -98,53 +113,80 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="bg-white py-20">
-      <div class="container mx-auto">
-        <h2 class="text-3xl font-bold mb-4 text-center">My Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <section id="projects" class="bg-white py-5">
+      <br> <br> <br>
+      <div class="container">
+        <h2 class="h2 fw-bold mb-4 text-center">My Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
           <!-- Project 1 -->
-          <div class="bg-gray-200 rounded-lg p-5">
-            <img src="./img/felicity.jpg" alt="Felicity Auto Electrician"
-              class="rounded-xl mx-auto h-50 mb-4">
-            <h3 class="text-xl font-bold mb-2">Felicity Auto Electrician</h3>
-            <p class="text-gray-600 mb-4">
-              A logo and branding design that conveys the core values of the
-              business.
-            </p>
-            <a
-              href="https://www.behance.net/gallery/195595249/Logo-Design-Branding-Felicity-Auto-Electrician"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">View
-              Project</a>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="./img/felicity.jpg"
+                alt="Logo for Felicity Auto Electrician, a company specializing in car electrical repairs."
+                class="card-img-top rounded-top-4"
+                style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Felicity Auto Electrician</h5>
+                <p class="card-text text-muted">A logo and branding design that
+                  conveys the core values of the business.</p>
+                <a
+                  href="https://www.behance.net/gallery/195595249/Logo-Design-Branding-Felicity-Auto-Electrician"
+                  class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
+              </div>
+            </div>
           </div>
 
           <!-- Project 2 -->
-          <div class="bg-gray-200 rounded-lg p-5">
-            <img src="./img/godeye.jpg" alt="God Eye Foundation"
-              class="rounded-xl mx-auto h-50 mb-4">
-            <h3 class="text-xl font-bold mb-2">God Eye Foundation</h3>
-            <p class="text-gray-600 mb-4">
-              A unique logo design & branding identity for an NGO depicting
-              care.
-            </p>
-            <a
-              href="https://www.behance.net/gallery/195596355/Logo-Design-Branding-God-Eye-Foundation"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">View
-              Project</a>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="./img/godeye.jpg"
+                alt="Logo for God Eye Foundation, an NGO that extends a reching hand to aid and support the helpless."
+                class="card-img-top rounded-top-4"
+                style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">God Eye Foundation</h5>
+                <p class="card-text text-muted">A unique logo design & branding
+                  identity for an NGO depicting care.</p>
+                <a
+                  href="https://www.behance.net/gallery/195596355/Logo-Design-Branding-God-Eye-Foundation"
+                  class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
+              </div>
+            </div>
           </div>
 
           <!-- Project 3 -->
-          <div class="bg-gray-200 rounded-lg p-5">
-            <img src="./img/purpool.jpg" alt="Purpool Chat Messenger"
-              class="rounded-xl mx-auto h-50 mb-4">
-            <h3 class="text-xl font-bold mb-2">Purpool Chat Messenger</h3>
-            <p class="text-gray-600 mb-4">
-              A modern, user-friendly chat application built with ReactJS and
-              Google's Firebase.
-            </p>
-            <a href="https://github.com/atok624/Purpool-Chat-Application"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">View
-              Project</a>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="./img/purpool.jpg"
+                alt="Logo for Purpool Chat Messenger, a modern, user-friendly chat application built with ReactJS and Google's Firebase."
+                class="card-img-top rounded-top-4"
+                style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Purpool Chat Messenger</h5>
+                <p class="card-text text-muted">A modern, user-friendly chat
+                  application built with ReactJS and Google's Firebase.</p>
+                <a href="https://github.com/atok624/Purpool-Chat-Application"
+                  class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="./img/clearvox.png"
+                alt="Logo for ClearVox, a Complaint Management System designed to handle and streamline the process of managing customer complaints."
+                class="card-img-top rounded-top-4 bg-white"
+                style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ClearVox</h5>
+                <p class="card-text text-muted">A Complaint Management System
+                  for handling processes of managing complaints.</p>
+                <a href="https://clearvox.web.app"
+                  class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -152,159 +194,112 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="bg-gray-100 py-20">
-      <div class="container mx-auto">
-        <h2 class="text-3xl font-bold mb-4 text-center">My Skills</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-gray-200 rounded-lg p-6">
-            <h3 class="text-xl font-bold mb-2">Programming Languages</h3>
-            <ul class="list-disc pl-6">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>ReactJS</li>
-              <li>Python</li>
-              <li>NodeJS</li>
-            </ul>
+    <section id="skills" class="bg-dark py-5">
+      <br> <br> <br>
+      <div class="container">
+        <h2 class="h2 fw-bold mb-4 text-white text-center">My Skills</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Programming Languages</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><i
+                      class="fab fa-html5 mx-2"></i>HTML</li>
+                  <li class="list-group-item"><i
+                      class="fab fa-css3 mx-2"></i>CSS</li>
+                  <li class="list-group-item"><i
+                      class="fab fa-js mx-2"></i>JavaScript</li>
+                  <li class="list-group-item"><i
+                      class="fab fa-python mx-2"></i>Python</li>
+                  <li class="list-group-item"><span
+                      class="fw-bold mx-2">C</span>C</li>
+                  <li class="list-group-item"><i
+                      class="fab fa-java mx-2"></i>Java</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="bg-gray-200 rounded-lg p-6">
-            <h3 class="text-xl font-bold mb-2">Frameworks & Libraries</h3>
-            <ul class="list-disc pl-6">
-              <li>Bootstrap</li>
-              <li>Firebase</li>
-            </ul>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Frameworks & Libraries</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><i
+                      class="fab fa-bootstrap mx-2"></i>Bootstrap</li>
+                  <li class="list-group-item"><i
+                      class="fab fa-react mx-2"></i>ReactJS</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="bg-gray-200 rounded-lg p-6">
-            <h3 class="text-xl font-bold mb-2">Design & Programming Tools</h3>
-            <ul class="list-disc pl-6">
-              <li>Photoshop</li>
-              <li>CorelDRAW</li>
-              <li>Illustrator</li>
-              <li>Visual Studio</li>
-            </ul>
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Design, Tools & Concepts</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Photoshop</li>
+                  <li class="list-group-item">CorelDRAW</li>
+                  <li class="list-group-item">Illustrator</li>
+                  <li class="list-group-item">Visual Studio Code</li>
+                  <li class="list-group-item">Responsive Designs</li>
+                  <li class="list-group-item">Color Theory</li>
+                  <li class="list-group-item">Android Studio</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="bg-white py-20">
-      <div class="container mx-auto">
-        <h2 class="text-3xl font-bold mb-2 text-center">Contact Me</h2>
-        <br />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="text-center">
-            <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
-            <p class="text-lg text-gray-600 mb-4">
-              Feel free to reach out to me for any inquiries or collaborations.
-            </p>
-            <a href="mailto:gideonagyage.com"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Contact
-              Me</a>
-          </div>
-          <div class="text-center">
-            <h3 class="text-2xl font-bold mb-4">Social Media</h3>
-            <div class="grid grid-cols-1">
-              <div
-                class="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-3 p-4">
+    <section id="contact" class="bg-white py-5">
+      <br> <br> <br>
+      <div class="container">
 
-                <a href="https://www.linkedin.com/in/gideonagyage"
-                  target="_blank" rel="noopener noreferrer">
-                  <div
-                    class="flex flex-1 gap-3 hover:bg-blue-200 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col">
-                    <div class="text-[#0e141b]" data-icon="LinkedinLogo"
-                      data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px"
-                        height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
-                      </svg>
-                    </div>
-                    <div class="flex flex-col gap-1">
-                      <h2
-                        class="text-[#0e141b] text-base font-bold leading-tight">LinkedIn</h2>
-                    </div>
-                  </div>
-                </a>
+        <div class="col-12 text-center">
+          <h3 class="h3 fw-bold mb-3">Contact Me</h3>
+          <p class="lead text-muted mb-3">Feel free to reach out to me for any
+            inquiries or collaborations.</p>
+          <a href="mailto:gideonagyage@gmail.com"
+            class="btn btn-dark rounded-5 px-4 py-2"> Send Email</a>
+        </div>
 
-                <a href="https://www.facebook.com/gideonagyage" target="_blank"
-                  rel="noopener noreferrer">
-                  <div
-                    class="flex flex-1 gap-3 hover:bg-blue-500 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col">
-                    <div class="text-[#0e141b]" data-icon="FacebookLogo"
-                      data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px"
-                        height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
-                      </svg>
-                    </div>
-                    <div class="flex flex-col gap-1">
-                      <h2
-                        class="text-[#0e141b] text-base font-bold leading-tight">Facebook</h2>
-                    </div>
-                  </div>
-                </a>
+        <br><br><br>
 
-                <a href="https://www.instagram.com/gideonagyage" target="_blank"
-                  rel="noopener noreferrer">
-                  <div
-                    class="flex flex-1 gap-3 hover:bg-red-500 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col">
-                    <div class="text-[#0e141b]" data-icon="InstagramLogo"
-                      data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px"
-                        height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
-                      </svg>
-                    </div>
-                    <div class="flex flex-col gap-1">
-                      <h2
-                        class="text-[#0e141b] text-base font-bold leading-tight">Instagram</h2>
-                    </div>
-                  </div>
-                </a>
+        <div class="col-12 text-center">
+          <h3 class="h3 fw-bold mb-3">Social Media</h3>
+          <div class="mx-2">
+            <a href="https://www.linkedin.com/in/gideonagyage"
+              target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline-dark mx-2 btn-block rounded-5">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/gideonagyage" target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-dark mx-2 btn-block rounded-5">
+              <i class="fab fa-facebook-f"></i>
+            </a>
 
-                <a href="https://www.behance.net/gideonagyage" target="_blank"
-                  rel="noopener noreferrer">
-                  <div
-                    class="flex flex-1 gap-3 hover:bg-blue-500 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col">
-                    <div class="text-[#0e141b]" data-icon="BehanceLogo"
-                      data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px"
-                        height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M160,80a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H168A8,8,0,0,1,160,80Zm-24,78a42,42,0,0,1-42,42H32a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H90a38,38,0,0,1,25.65,66A42,42,0,0,1,136,158ZM40,116H90a22,22,0,0,0,0-44H40Zm80,42a26,26,0,0,0-26-26H40v52H94A26,26,0,0,0,120,158Zm128-6a8,8,0,0,1-8,8H169a32,32,0,0,0,56.59,11.2,8,8,0,0,1,12.8,9.61A48,48,0,1,1,248,152Zm-17-8a32,32,0,0,0-62,0Z"></path>
-                      </svg>
-                    </div>
-                    <div class="flex flex-col gap-1">
-                      <h2
-                        class="text-[#0e141b] text-base font-bold leading-tight">Behance</h2>
-                    </div>
-                  </div>
-                </a>
+            <a href="https://www.instagram.com/gideonagyage" target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-dark mx-2 btn-block rounded-5">
+              <i class="fab fa-instagram"></i>
+            </a>
 
-                <a href="https://www.github.com/gideonagyage" target="_blank"
-                  rel="noopener noreferrer">
-                  <div
-                    class="flex flex-1 gap-3 hover:bg-gray-300 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col">
-                    <div class="text-[#0e141b]" data-icon="GithubLogo"
-                      data-size="24px" data-weight="regular">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24px"
-                        height="24px" fill="currentColor" viewBox="0 0 256 256">
-                        <path
-                          d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path>
-                      </svg>
-                    </div>
-                    <div class="flex flex-col gap-1">
-                      <h2
-                        class="text-[#0e141b] text-base font-bold leading-tight">GitHub</h2>
-                    </div>
-                  </div>
-                </a>
+            <a href="https://www.behance.net/gideonagyage" target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-dark mx-2 btn-block rounded-5">
+              <i class="fab fa-behance"></i>
+            </a>
 
-              </div>
-            </div>
+            <a href="https://www.github.com/gideonagyage" target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-dark mx-2 btn-block rounded-5">
+              <i class="fab fa-github"></i>
+            </a>
+
           </div>
         </div>
 
@@ -312,11 +307,11 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-100 py-4 mt-5">
-      <div class="container mx-auto text-center">
-        <br /> <p
-          class="text-gray-600">©<script>document.write(/\d{4}/.exec(Date())[0])</script>
-          Gideon Agyage. All rights reserved.</p> <br />
+    <footer class="bg-black py-4 mt-5">
+      <div class="container text-center">
+        <p class="text-white my-3">©
+          <script>document.write(/\d{4}/.exec(Date())[0])</script> Gideon
+          Agyage. All rights reserved.</p>
       </div>
     </footer>
 
@@ -332,14 +327,39 @@
                 targetElement.scrollIntoView({ behavior: 'smooth' });
             });
         });
-
-        // Mobile Menu Functionality
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
     </script>
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Gideon Agyage",
+          "jobTitle": "Web Developer & Graphic Designer",
+          "url": "https://www.gideon-agyage.web.app",
+          "description": "Gideon Agyage is a passionate Web Developer and Graphic Designer based in Accra, Ghana. He specializes in creating beautiful and functional websites using HTML, CSS, and JavaScript. Explore his portfolio and connect with him on LinkedIn.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/gideon-agyage.appspot.com/o/gideon-agyage.jpg?alt=media&token=8f455565-1bcd-40e2-b252-a8563e5bf316",
+          "location": {
+            "@type": "Place",
+            "name": "Accra, Ghana"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/gideonagyage",
+            "https://www.facebook.com/gideonagyage",
+            "https://www.instagram.com/gideonagyage",
+            "https://www.behance.net/gideonagyage",
+            "https://www.github.com/gideonagyage",
+            "https://www.threads.com/gideonagyage",
+          ]
+        }
+    </script>
+
   </body>
 </html>
