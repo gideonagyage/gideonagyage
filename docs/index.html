@@ -15,8 +15,13 @@
     <meta name="google" content="notranslate">
     <!-- End of Meta Tags for SEO -->
 
+    <!-- Title of Web Page -->
     <title>Gideon Agyage | Web Developer & Graphic Designer | Accra,
       Ghana</title>
+
+    <!-- Google Fonts - Roboto -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
 
     <!-- Bootstrap Link -->
     <link
@@ -28,10 +33,15 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./img/my_logo_black.svg"
       type="image/svg+xml">
+
+    <!-- Custom CSS Style -->
+    <link rel="stylesheet" href="./css/style.css">
 
   </head>
 
@@ -75,7 +85,7 @@
     <!-- Hero Section -->
     <section id="hero"
       class="bg-white py-5 mt-5 vh-100 justify-content-center align-items-center">
-      <br> <br>
+      <br>
       <div class="container text-center p-4">
         <h2 class="display-3 fw-bold mb-4">Hi, I'm Gideon Agyage</h2>
         <p class="lead mb-4">A passionate Web Developer and Graphic Designer
@@ -84,13 +94,21 @@
           class="btn btn-dark to-section rounded-5 px-4 py-2"><h5>My
             Projects</h5></a>
       </div>
+
+      <!-- Arrow Pointing Down -->
+      <div class="arrow mx-auto text-center mt-4">
+        <i class="fa fa-arrow-circle-down fa-3x"></i>
+      </div>
+
     </section>
 
     <!-- About Me Section -->
     <section id="about" class="bg-dark py-5">
       <br>
       <div class="container">
-        <h2 class="h2 fw-bold mb-5 text-white text-center">About Me</h2>
+        <h2
+          class="h2 fw-bold mb-5 text-white text-center heading">About
+          Me</h2>
         <div class="row">
           <div class="col-12 text-center">
             <img src="./img/profile_pic.jpg" alt="Gideon Agyage"
@@ -98,7 +116,7 @@
               height="auto">
             <p class="lead text-white mt-4 mx-5">
               I'm a dedicated Web Developer & Graphic Designer based in <span
-                class="fw-bold text-primary">Accra, Ghana</span>. With
+                class="fw-bold blue-text">Accra, Ghana</span>. With
               experience in HTML, CSS, JavaScript, and Python, I love creating
               clean, user-friendly websites that make an impact. When I’m not
               coding, you’ll find me tinkering with graphic design or exploring
@@ -116,35 +134,61 @@
     <section id="projects" class="bg-white py-5">
       <br> <br> <br>
       <div class="container">
-        <h2 class="h2 fw-bold mb-4 text-center">My Projects</h2>
+        <h2 class="h2 fw-bold mb-4 text-center heading">My
+          Projects</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-          <!-- Project 1 -->
+          <!-- Project 5 -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
-              <img src="./img/felicity.jpg"
-                alt="Logo for Felicity Auto Electrician, a company specializing in car electrical repairs."
-                class="card-img-top rounded-top-4"
+              <img src="./img/projects/clearvox.png"
+                alt="Logo for ClearVox, a Complaint Management System designed to handle and streamline the process of managing customer complaints."
+                class="card-img-top rounded-top-4 bg-white"
                 style="height: 200px; object-fit: cover;">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Felicity Auto Electrician</h5>
-                <p class="card-text text-muted">A logo and branding design that
-                  conveys the core values of the business.</p>
-                <a
-                  href="https://www.behance.net/gallery/195595249/Logo-Design-Branding-Felicity-Auto-Electrician"
+                <div class="text-muted bg-white mb-2">
+                  &middot; Web Application
+                </div>
+                <h5 class="card-title fw-bold">ClearVox</h5>
+                <p class="card-text text-muted">A Complaint Management System
+                  for handling processes of managing complaints.</p>
+                <a href="https://clearvox.web.app"
                   class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
               </div>
             </div>
           </div>
 
-          <!-- Project 2 -->
+          <!-- Project 4 -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
-              <img src="./img/godeye.jpg"
+              <img src="./img/projects/purpool.jpg"
+                alt="Logo for Purpool Chat Messenger, a modern, user-friendly chat application built with ReactJS and Google's Firebase."
+                class="card-img-top rounded-top-4"
+                style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <div class="text-muted bg-white mb-2">
+                  &middot; Web Application
+                </div>
+                <h5 class="card-title fw-bold">Purpool Chat Messenger</h5>
+                <p class="card-text text-muted">A modern, user-friendly chat
+                  application built with ReactJS and Google's Firebase.</p>
+                <a href="https://github.com/atok624/Purpool-Chat-Application"
+                  class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col">
+            <div class="card h-100 rounded-4 shadow">
+              <img src="./img/projects/godeye.jpg"
                 alt="Logo for God Eye Foundation, an NGO that extends a reaching hand to aid and support the helpless."
                 class="card-img-top rounded-top-4"
                 style="height: 200px; object-fit: cover;">
               <div class="card-body">
+                <div class="text-muted bg-white mb-2">
+                  &middot; Logo & Branding
+                </div>
                 <h5 class="card-title fw-bold">God Eye Foundation</h5>
                 <p class="card-text text-muted">A unique logo design & branding
                   identity for an NGO depicting care.</p>
@@ -155,35 +199,44 @@
             </div>
           </div>
 
-          <!-- Project 3 -->
+          <!-- Project 2 -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
-              <img src="./img/purpool.jpg"
-                alt="Logo for Purpool Chat Messenger, a modern, user-friendly chat application built with ReactJS and Google's Firebase."
+              <img src="./img/projects/thywill.jpg"
+                alt="Logo for Thywill Clothing, a tailoring business specializing in clothing and accessories."
                 class="card-img-top rounded-top-4"
                 style="height: 200px; object-fit: cover;">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Purpool Chat Messenger</h5>
-                <p class="card-text text-muted">A modern, user-friendly chat
-                  application built with ReactJS and Google's Firebase.</p>
-                <a href="https://github.com/atok624/Purpool-Chat-Application"
+                <div class="text-muted bg-white mb-2">
+                  &middot; Logo & Branding
+                </div>
+                <h5 class="card-title fw-bold">Thywill Clothing</h5>
+                <p class="card-text text-muted">A branding design for a
+                  tailoring business specializing in clothing and
+                  accessories.</p>
+                <a
+                  href="https://www.behance.net/gallery/195602675/Logo-Design-Branding-Thywill-CLothing"
                   class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
               </div>
             </div>
           </div>
 
-          <!-- Project 4 -->
+          <!-- Project 1 -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
-              <img src="./img/clearvox.png"
-                alt="Logo for ClearVox, a Complaint Management System designed to handle and streamline the process of managing customer complaints."
-                class="card-img-top rounded-top-4 bg-white"
+              <img src="./img/projects/felicity.jpg"
+                alt="Logo for Felicity Auto Electrician, a company specializing in car electrical repairs."
+                class="card-img-top rounded-top-4"
                 style="height: 200px; object-fit: cover;">
               <div class="card-body">
-                <h5 class="card-title fw-bold">ClearVox</h5>
-                <p class="card-text text-muted">A Complaint Management System
-                  for handling processes of managing complaints.</p>
-                <a href="https://clearvox.web.app"
+                <div class="text-muted bg-white mb-2">
+                  &middot; Logo & Branding
+                </div>
+                <h5 class="card-title fw-bold">Felicity Auto Electrician</h5>
+                <p class="card-text text-muted">A logo and branding design that
+                  conveys the core values of the business.</p>
+                <a
+                  href="https://www.behance.net/gallery/195595249/Logo-Design-Branding-Felicity-Auto-Electrician"
                   class="btn btn-dark rounded-5 px-4 py-2">View Project</a>
               </div>
             </div>
@@ -197,8 +250,12 @@
     <section id="skills" class="bg-dark py-5">
       <br> <br> <br>
       <div class="container">
-        <h2 class="h2 fw-bold mb-4 text-white text-center">My Skills</h2>
+        <h2
+          class="h2 fw-bold mb-4 text-white text-center heading">My
+          Skills</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+          <!-- Programming Languages -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
               <div class="card-body">
@@ -220,10 +277,11 @@
               </div>
             </div>
           </div>
+          <!-- Frameworks/Libraries -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Frameworks & Libraries</h5>
+                <h5 class="card-title fw-bold">Frameworks/Libraries</h5>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item"><i
                       class="fab fa-bootstrap mx-2"></i>Bootstrap</li>
@@ -233,23 +291,104 @@
               </div>
             </div>
           </div>
+          <!-- Software/Tools -->
           <div class="col">
             <div class="card h-100 rounded-4 shadow">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Design, Tools & Concepts</h5>
+                <h5 class="card-title fw-bold">Software/Tools</h5>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Photoshop</li>
                   <li class="list-group-item">CorelDRAW</li>
                   <li class="list-group-item">Illustrator</li>
                   <li class="list-group-item">Visual Studio Code</li>
                   <li class="list-group-item">Responsive Designs</li>
-                  <li class="list-group-item">Color Theory</li>
                   <li class="list-group-item">Android Studio</li>
                 </ul>
               </div>
             </div>
           </div>
+
         </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="mb-4">
+      <div class="container-xl mb-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="h2 fw-bold m-5 text-center heading">Testimonials</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators visually-hidden">
+                <li data-target="#myCarousel" data-slide-to="0"
+                  class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img-box"><img src="./img/clients/Aaron.jpg"
+                      alt></div>
+                  <p class="testimonial">
+                    <b>Gideon</b> has been exceptionally
+                    creative in terms of bringing out the idea
+                    behind the project. The results from the
+                    work so far shows he has top notch skills
+                    both technically and software wise. He's
+                    the next big thing in the field and anyone
+                    looking for someone with dedication and
+                    expertise should go for <b>him</b>.</p>
+                  <p class="overview"><b>Aaron Ankomah</b>, BishopMusic</p>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box"><img src="./img/clients/Emmy.jpg"
+                      alt></div>
+                  <p class="testimonial">I am delighted to highly recommend
+                    <b>Gideon Agyage</b> to anyone looking for a
+                    professional Graphic Designer. I have
+                    had the privilege of collaborating with <b>him</b>
+                    and thoroughly enjoyed our time
+                    together. Throughout our collaboration, I
+                    have come to recognize <b>him</b>
+                    as an incedibly valuable asset to my
+                    Enterprise.</p>
+                  <p class="overview"><b>Emelia Dzeble</b>, Blessed Hand
+                    Enterprise</p>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box"><img src="./img/clients/Prince.jpg"
+                      alt></div>
+                  <p class="testimonial"><b>Gideon</b> is an exceptionally
+                    talented and skilled graphic designer. His work is
+                    characterized by fresh, bold, innovative and exciting
+                    qualities. Working with <b>him</b> on the creation of the
+                    logo for
+                    our NGO was a seamless and stress-free experience.</p>
+                  <p class="overview"><b>Prince Tuffour</b>, God Eye
+                    Foundation</p>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control-prev" href="#myCarousel"
+                data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel"
+                data-slide="next">
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arrow Pointing Down -->
+    <section>
+      <div class="arrow mx-auto text-center mt-4">
+        <i class="fa fa-arrow-circle-down fa-3x"></i>
       </div>
     </section>
 
@@ -259,7 +398,7 @@
       <div class="container">
 
         <div class="col-12 text-center">
-          <h3 class="h3 fw-bold mb-3">Contact Me</h3>
+          <h3 class="h3 fw-bold mb-3 heading">Contact Me</h3>
           <p class="lead text-muted mb-3">Feel free to reach out to me for any
             inquiries or collaborations.</p>
           <a href="mailto:gideonagyage@gmail.com"
@@ -336,55 +475,73 @@
       </div>
     </footer>
 
-    <!-- Smooth Scrolling Script -->
-    <script>
-        // Smooth scrolling for navigation links
-        const navLinks = document.querySelectorAll('.to-section');
-        navLinks.forEach(link => {
-            link.addEventListener('click', (event) => {
-                event.preventDefault();
-                const targetId = link.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                targetElement.scrollIntoView({ behavior: 'smooth' });
-            });
-        });
+    <!-- SCRIPTS -->
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js">
     </script>
 
-    <!-- Bootstrap Script -->
+    <!-- Popper Script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+    </script>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+      // Smooth scrolling for navigation links
+      const navLinks = document.querySelectorAll('.to-section');
+      navLinks.forEach(link => {
+          link.addEventListener('click', (event) => {
+              event.preventDefault();
+              const targetId = link.getAttribute('href');
+              const targetElement = document.querySelector(targetId);
+              targetElement.scrollIntoView({ behavior: 'smooth' });
+          });
+      });
+    </script>
+
+    <!-- Bootstrap Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous">
     </script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+    </script>
 
     <!-- Schema.org Markup -->
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Gideon Agyage",
-          "jobTitle": "Web Developer & Graphic Designer",
-          "url": "https://www.gideon-agyage.web.app",
-          "description": "Gideon Agyage is a passionate Web Developer and Graphic Designer based in Accra, Ghana. He specializes in creating beautiful and functional websites using HTML, CSS, and JavaScript. Explore his portfolio and connect with him on LinkedIn.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/gideon-agyage.appspot.com/o/gideon-agyage.jpg?alt=media&token=8f455565-1bcd-40e2-b252-a8563e5bf316",
-          "location": {
-            "@type": "Place",
-            "name": "Accra, Ghana"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/gideonagyage",
-            "https://www.facebook.com/gideonagyage",
-            "https://www.instagram.com/gideonagyage",
-            "https://www.behance.net/gideonagyage",
-            "https://www.github.com/gideonagyage",
-            "https://www.threads.com/gideonagyage",
-          ]
-        }
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gideon Agyage",
+        "jobTitle": "Web Developer & Graphic Designer",
+        "url": "https://www.gideon-agyage.web.app",
+        "description": "Gideon Agyage is a passionate Web Developer and Graphic Designer based in Accra, Ghana. He specializes in creating beautiful and functional websites using HTML, CSS, and JavaScript. Explore his portfolio and connect with him on LinkedIn.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/gideon-agyage.appspot.com/o/gideon-agyage.jpg?alt=media&token=8f455565-1bcd-40e2-b252-a8563e5bf316",
+        "location": {
+          "@type": "Place",
+          "name": "Accra, Ghana"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/gideonagyage",
+          "https://www.facebook.com/gideonagyage",
+          "https://www.instagram.com/gideonagyage",
+          "https://www.behance.net/gideonagyage",
+          "https://www.github.com/gideonagyage",
+          "https://www.threads.com/gideonagyage",
+          "https://www.tiktok.com/@gideonagyage",
+          "https://www.x.com/gideonagyage",
+        ]
+      }
     </script>
 
     <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/c23785522f.js"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
+
+    <!-- /SCRIPTS -->
 
   </body>
 
